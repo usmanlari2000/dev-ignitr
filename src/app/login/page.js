@@ -4,5 +4,5 @@ export const metadata = {
 };
 
 export default function Login() {
-  return <main className="my-27"></main>;
+  return <></>;
 }
