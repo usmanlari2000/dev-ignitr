@@ -2,7 +2,7 @@ import Image from "next/image";
 import temp from "@/assets/images/temp.webp";
 
 export const metadata = {
-  title: "Home | Dev Ignitr",
+  title: "Get a Top Class Website Made for Free | Dev Ignitr",
   description: "",
 };
 

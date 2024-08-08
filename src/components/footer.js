@@ -7,7 +7,7 @@ export default function Footer() {
         <div>Dev Ignitr © 2024</div>
         <div>
           <Link className="hover:underline" href="/login">
-            Client login
+            Client Login
           </Link>
         </div>
       </div>

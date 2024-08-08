@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Client login | Dev Ignitr",
+  title: "Client Login | Dev Ignitr",
   description: "",
 };
 
