@@ -5,7 +5,7 @@ import hero from "@/assets/images/hero.webp";
 export const metadata = {
   title: "We build fast, visually appealing websites. | Dev Ignitr",
   description:
-    "We are an agency that designs and develops online stores, marketing websites, and blogs.",
+    "We are an agency that designs and develops e-commerce stores, business websites, and blogs.",
 };
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
           We build fast, visually appealing websites.
         </div>
         <div className="max-w-2xl my-5.5 mx-auto text-gray text-base xs:text-lg lg:text-xl text-balance text-center">
-          We are an agency that designs and develops online stores, marketing
+          We are an agency that designs and develops e-commerce stores, business
           websites, and blogs.
         </div>
         <div className="my-5.5 mx-auto flex justify-center gap-4 flex-wrap">
