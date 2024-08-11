@@ -11,13 +11,13 @@ export default function RootLayout({ children }) {
             <div className="flex gap-x-2">
               <Link
                 className="py-1 px-1 md:pr-1 text-gray hover:text-black transition-all duration-200"
-                href="/login"
+                href="https://www.facebook.com/profile.php?id=61563028487171"
               >
                 Facebook
               </Link>
               <Link
                 className="p-1 text-gray hover:text-black transition-all duration-200"
-                href="/login"
+                href="https://www.instagram.com/devignitr/"
               >
                 Instagram
               </Link>
@@ -28,4 +28,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+}git
