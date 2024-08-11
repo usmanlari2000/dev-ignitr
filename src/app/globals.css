@@ -3,19 +3,32 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Söhne;
-  src: url("/fonts/TestSohne-Regular.otf") format("opentype");
+  font-family: "Geist";
+  src: url("/fonts/Geist-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
-body {
-  font-family: Söhne, sans-serif;
-  background-color: #f9f9f9;
-  color: #080808;
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
 }
 
-::selection {
-  background-color: #080808;
-  color: #f9f9f9;
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: Geist, sans-serif;
+  background-color: #fafafa;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.04) 0px 2px 2px 0px;
 }

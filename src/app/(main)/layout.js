@@ -1,15 +1,10 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "Client login | Dev Ignitr",
-  description: "",
-};
-
-export default function Login() {
+export default function MainLayout({ children }) {
   return (
     <>
       <header>
-        <div className="max-w-5.75xl h-16 mx-auto px-4 flex items-center">
+        <div className="max-w-5.75xl h-16 mx-auto px-4 flex justify-between items-center">
           <Link className="py-1 pr-1" href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +23,15 @@ export default function Login() {
               />
             </svg>
           </Link>
+          <Link
+            className="h-8 bg-black select-none shadow rounded-md hover:opacity-90 transition-all duration-200 px-4 flex items-center text-white font-medium text-sm whitespace-nowrap"
+            href="/login"
+          >
+            Client Login
+          </Link>
         </div>
       </header>
+      <main className="my-27">{children}</main>
     </>
   );
 }
