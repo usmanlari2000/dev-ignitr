@@ -22,7 +22,7 @@ export default function Home() {
         <div className="my-5.5 mx-auto flex justify-center gap-4 flex-wrap">
           <a
             className="h-10 w-fit select-none bg-black rounded-md hover:opacity-90 transition-all duration-200 px-4 flex items-center text-white font-medium"
-            href="https://wa.me/923211681128?text=Hi,%20I%20am%20interested%20in%20having%20a%20fast%20,%20visually%20appealing%20website%20created."
+            href="https://wa.me/923211681128?text=Hi,%20I%20am%20interested%20in%20having%20a%20fast,%20visually%20appealing%20website%20created."
           >
             WhatsApp Us
           </a>
