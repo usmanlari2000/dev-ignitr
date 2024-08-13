@@ -18,6 +18,13 @@ export default function Contact() {
           placeholder="Email Address"
           required
         />
+        <input
+          className="w-full mx-auto input-shadow rounded-md focus:outline-none px-3 py-2"
+          type="text"
+          name="subject"
+          placeholder="Subject"
+          required
+        />
         <textarea
           className="h-48 w-full mx-auto input-shadow rounded-md focus:outline-none px-3 py-2"
           name="message"

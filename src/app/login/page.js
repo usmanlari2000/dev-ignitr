@@ -38,9 +38,9 @@ export default function Login() {
         <form className="max-w-xs my-5.5 mx-auto flex flex-col gap-y-4 justify-center">
           <input
             className="w-full mx-auto input-shadow rounded-md focus:outline-none px-3 py-2"
-            type="text"
-            name="username"
-            placeholder="Username"
+            type="email"
+            name="email"
+            placeholder="Email Address"
             required
           />
           <input
