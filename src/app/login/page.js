@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Log In | Dev Ignitr",
+  title: "Log in | Dev Ignitr",
   description:
     "Log in here to access the data submitted by users on your website.",
 };
