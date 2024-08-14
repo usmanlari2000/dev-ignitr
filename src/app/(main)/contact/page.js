@@ -5,7 +5,7 @@ export const metadata = {
 };
 
 export default function Contact() {
-  return (2
+  return (
     <div className="max-w-5.75xl my-27 mx-auto px-4">
       <div className="my-5.5 font-semibold text-2xl xs:text-3xl lg:text-4xl text-balance tracking-tighter text-center">
         Contact us
