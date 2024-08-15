@@ -3,7 +3,7 @@ import Image from "next/image";
 import hero from "@/assets/images/hero.webp";
 
 export const metadata = {
-  title: "We build fast, visually appealing websites. | Dev Ignitr",
+  title: "We build fast, visually appealing websites | Dev Ignitr",
   description:
     "Dev Ignitr is an agency that designs and develops e-commerce stores, business websites, and blogs.",
 };
