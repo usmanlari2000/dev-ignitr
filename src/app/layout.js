@@ -1,15 +1,16 @@
 import "./globals.css";
+import { GeistSans } from "geist/font/sans";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="text-black">
+      <body className={`${GeistSans.className} text-black`}>
         {children}
-        <footer className="my-8.5">
-          <div className="max-w-5.75xl my-8.5 mx-auto px-4 flex flex-col gap-y-1 md:flex-row items-center justify-between text-sm">
+        <footer className="my-8">
+          <div className="max-w-5.75xl my-8 mx-auto px-4 flex flex-col md:flex-row gap-y-1 items-center justify-between text-sm">
             <div className="flex gap-x-2">
               <a
-                className="py-1 px-1 md:pr-1 text-gray hover:text-black transition-all duration-200"
+                className="p-1 text-gray hover:text-black transition-all duration-200"
                 href="https://www.facebook.com/profile.php?id=61563028487171"
               >
                 Facebook
