@@ -22,7 +22,7 @@ export default function Home() {
         <div className="my-5.5 mx-auto flex justify-center gap-4 flex-wrap">
           <a
             className="h-10 w-fit select-none bg-black rounded-md hover:opacity-90 transition-all duration-200 px-4 flex items-center text-white font-medium"
-            href="mailto:hello@devignitr.com"
+            href="mailto:admin@devignitr.com"
           >
             Send Email
           </a>
