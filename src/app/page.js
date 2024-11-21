@@ -21,7 +21,7 @@ export default function Page() {
           <a href="https://giorgigirl.sanity.studio" target="_blank">
             CMS
           </a>
-          : Use the E-mail / Password option with the following credentials:
+          : Use the E-mail / password option with the following credentials:
           <ul>
             <li>Email: demo@devignitr.com</li>
             <li>Password: Supersecretpassword</li>
