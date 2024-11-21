@@ -11,5 +11,5 @@
 }
 
 .content ul {
-  @apply list-disc list-outside;
+  @apply list-disc list-outside ml-8;
 }

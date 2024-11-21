@@ -12,7 +12,7 @@ export default function Page() {
         Sanity and Next.js.
       </h1>
       <p>Check out the demo:</p>
-      <ul className="ml-8">
+      <ul>
         <li>
           <a href="https://giorgigirl.pages.dev" target="_blank">
             Website
@@ -24,7 +24,7 @@ export default function Page() {
           </a>
           : Use the <strong>E-mail / Password</strong> option with the following
           credentials:
-          <ul className="ml-8">
+          <ul>
             <li>
               <strong>Email</strong>: demo@devignitr.com
             </li>
