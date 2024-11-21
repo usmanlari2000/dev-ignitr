@@ -6,10 +6,9 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="content max-w-[480px] mx-auto mt-60 px-4 text-lg">
+    <div className="content max-w-[480px] mx-auto mt-60 px-4">
       <h1>
-        <strong>Dev Ignitr</strong> is an agency that migrates websites to
-        Sanity and Next.js.
+        Dev Ignitr is an agency that migrates websites to Sanity and Next.js.
       </h1>
       <p>Check out the demo:</p>
       <ul>
@@ -22,15 +21,10 @@ export default function Page() {
           <a href="https://giorgigirl.sanity.studio" target="_blank">
             CMS
           </a>
-          : Use the <strong>E-mail / Password</strong> option with the following
-          credentials:
+          : Use the E-mail / Password option with the following credentials:
           <ul>
-            <li>
-              <strong>Email</strong>: demo@devignitr.com
-            </li>
-            <li>
-              <strong>Password</strong>: Supersecretpassword
-            </li>
+            <li>Email: demo@devignitr.com</li>
+            <li>Password: Supersecretpassword</li>
           </ul>
         </li>
       </ul>

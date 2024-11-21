@@ -7,7 +7,7 @@
 }
 
 .content a {
-  @apply text-[#0000ff] underline;
+  @apply text-[#0072f5] hover:text-opacity-70 transition-colors duration-300;
 }
 
 .content ul {
